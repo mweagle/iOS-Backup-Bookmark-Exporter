@@ -9,7 +9,16 @@ Create a tool that exports the iOS [Sqlite](http://www.sqlite.org/) bookmark.db 
 
 It's not pretty, and gave me a new appreciation for anyone who's able to make a serviceable Java Swing UI, but it does work.
 
-![iOS Bookmark Exporter](docs/iOS Bookmark Exporter.png)
+![iOS Bookmark Exporter](./docs/iOS Bookmark Exporter.png)
+
+Building
+------------------------------- 
+1. Install Maven
+2. In a terminal window:
+	mvn package
+3. In  _target/appassembler/bin_, there will be platform-specific shell scripts to run the UI version
+4. Everything is also zipped up into _target/com.mweagle.iosBookmarkSaver-1.0-SNAPSHOT-dist.zip_
+
 
 Usage
 ------------------------------- 
@@ -25,12 +34,5 @@ Via the command line, by providing a list of _bookmark.db_ files to export:
 An HTML file that uses the original path plus ".html" will be created.  For instance _/path/to/my/bookmarks.db.html_
 
 ### GUI ###
-
-
-**  
-
-    
-
-** 
-** Via the 
+Run the platform-appropriate _bookmarkSaver_ shell script to bring up the (admittedly ugly) UI.
 
