@@ -9,7 +9,7 @@ Create a tool that exports the iOS [Sqlite](http://www.sqlite.org/) bookmark.db 
 
 It's not pretty, and gave me a new appreciation for anyone who's able to make a serviceable Java Swing UI, but it does work.
 
-![](http://github.com/mweagle/iOS-Backup-Bookmark-Exporter/blob/master/docs/iOS Bookmark Exporter.png)
+![](http://github.com/mweagle/iOS-Backup-Bookmark-Exporter/raw/master/docs/iOS Bookmark Exporter.png)
 
 Building
 ------------------------------- 
