@@ -34,5 +34,5 @@ Via the command line, by providing a list of _bookmark.db_ files to export:
 An HTML file that uses the original path plus ".html" will be created.  For instance _/path/to/my/bookmarks.db.html_
 
 ### GUI ###
-Run the platform-appropriate _bookmarkSaver_ shell script to bring up the (admittedly ugly) UI.
+Run the platform-appropriate _/bin/bookmarkSaver_ shell script to bring up the (admittedly ugly) UI.
 
